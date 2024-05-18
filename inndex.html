@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <img class="header_back" src="./image/background/header-back.png" alt="">
+                <a class="logo" href="/">
+                    <img class="logo__item" src="./image/logo/Логотип.svg" alt="">
+                </a>
+                <p class="header-discription">Комплексный подход
+                    для решения Ваших задач
+                </p>
+                <button class="button">
+                    Обсудить вопрос с экспертом
+                </button>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="/">
+                            <img class="social__icon" src="./image/icons/tg.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="/">
+                            <img class="social__icon" src="./image/icons/what.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="/">
+                            <img class="social__icon" src="./image/icons/Viber.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__contact">
+                    <a class="header__phone" href="tel:+79808002447">+7 (980) 800-24-47</a>
+                    <p class="header__adress">г. Москва и Московская обл.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="line"></div>
+    <div class="container">
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Услуги</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Кейсы</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Цены</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="main-section">
+        <div class="container">
+            <div class="main-section__wrapper">
+                <div class="">
+                    <p class="main-section__text"><span class="main-section__text--style">Комплексный подход</span> для
+                        решения
+                        Ваших задач</p>
+                    <h1 class="main__title">кадастровый инженер, земельный юрист, геодезист</h1>
+                    <p class="sub-title">Качественные услуги от команды с многолетним опытом. Мы решим вашу проблему уже
+                        сегодня.
+                    </p>
+                    <form class="form__block">
+                        <div class="form__block-input">
+                            <div class="form__group">
+                                <input class="form__input" type="text" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="form__group">
+                                <input class="form__input" type="tel" name="tel" placeholder="Ваш Телефон"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            </div>
+                        </div>
+                        <div class="form__block-send">
+                            <div class="block__left button">
+                                <a href="#" type="submit" class="button-send">
+                                    Перезвоните мне
+                                </a>
+                            </div>
+                            <div class="block__right">
+                                <label class="block__right-lable" for="">
+                                    <input class="form__checkbox" type="checkbox">
+                                    <span class="fake__checkbox"></span>
+                                </label>
+                                <a class="personal " href="#">персональных данных.</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <img class="main-section__image" src="./image/images/image1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="spisok-statey">
+        <div class="container">
+            <div class="vidy-uslug">
+                <h2 class="second-title second-title--vidy-uslug">Виды услуг</h2>
+                <nav class="vidy-uslug__nav">
+                    <ul class="vidy-uslug__list">
+                        <li class="vidy-uslug__item">
+                            <p class="vidy-uslug__button" id="vidy-uslug__button1" tabindex="0">Кадастровые работы</p>
+                        </li>
+                        <li class="vidy-uslug__item">
+                            <p class="vidy-uslug__button" id="vidy-uslug__button2" tabindex="0">Экспертизы и судебные
+                                споры </p>
+                        </li>
+                        <li class="vidy-uslug__item">
+                            <p class="vidy-uslug__button" id="vidy-uslug__button3" tabindex="0">Юридические услуги</p>
+                        </li>
+                        <li class="vidy-uslug__item">
+                            <p class="vidy-uslug__button" id="vidy-uslug__button4" tabindex="0">Геодезические работы
+                            </p>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="articles articles-slider articles-1">
+                    <ul class="article_list">
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Межевание_.png" alt="">
+                            <h3 class="article__title">Межевание земель 1</h3>
+                            <p class="article__text">Установление границ, раздел, объединение, перераспределение,
+                                исправление ошибок</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Тех.план_.png" alt="">
+                            <h3 class="article__title">Технический план</h3>
+                            <p class="article__text">Учёт и регистрация жилого или нежилого здания, жилого или нежилого
+                                помещения</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Акт_.png" alt="">
+                            <h3 class="article__title">Акт обследования</h3>
+                            <p class="article__text">Снятие с учёта и прекращение права на здания, помещения после
+                                сноса, пожара и тп.</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="articles articles-slider articles--display articles-2">
+                    <ul class="article_list">
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Межевание_.png" alt="">
+                            <h3 class="article__title">Межевание земель 2</h3>
+                            <p class="article__text">Установление границ, раздел, объединение, перераспределение,
+                                исправление ошибок</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Тех.план_.png" alt="">
+                            <h3 class="article__title">Технический план</h3>
+                            <p class="article__text">Учёт и регистрация жилого или нежилого здания, жилого или нежилого
+                                помещения</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Акт_.png" alt="">
+                            <h3 class="article__title">Акт обследования</h3>
+                            <p class="article__text">Снятие с учёта и прекращение права на здания, помещения после
+                                сноса, пожара и тп.</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="articles articles-slider articles--display articles-3">
+                    <ul class="article_list">
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Межевание_.png" alt="">
+                            <h3 class="article__title">Межевание земель 3</h3>
+                            <p class="article__text">Установление границ, раздел, объединение, перераспределение,
+                                исправление ошибок</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Тех.план_.png" alt="">
+                            <h3 class="article__title">Технический план</h3>
+                            <p class="article__text">Учёт и регистрация жилого или нежилого здания, жилого или нежилого
+                                помещения</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Акт_.png" alt="">
+                            <h3 class="article__title">Акт обследования</h3>
+                            <p class="article__text">Снятие с учёта и прекращение права на здания, помещения после
+                                сноса, пожара и тп.</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="articles articles-slider articles--display articles-4">
+                    <ul class="article_list">
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Межевание_.png" alt="">
+                            <h3 class="article__title">Межевание земель 4</h3>
+                            <p class="article__text">Установление границ, раздел, объединение, перераспределение,
+                                исправление ошибок</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Тех.план_.png" alt="">
+                            <h3 class="article__title">Технический план</h3>
+                            <p class="article__text">Учёт и регистрация жилого или нежилого здания, жилого или нежилого
+                                помещения</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Акт_.png" alt="">
+                            <h3 class="article__title">Акт обследования</h3>
+                            <p class="article__text">Снятие с учёта и прекращение права на здания, помещения после
+                                сноса, пожара и тп.</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="soputstvuyushchiye">
+                <h2 class="second-title second-title--soputstvuyushchiye">Сопутствующие</h2>
+                <div class="articles">
+                    <ul class="article_list">
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Вынос_.png" alt="">
+                            <h3 class="article__title">Вынос границ участка/здания</h3>
+                            <p class="article__text">Перед покупкой или перед строительством</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Схема_.png" alt="">
+                            <h3 class="article__title">Схема расположения (СРЗУ )</h3>
+                            <p class="article__text">Для оформления прирезки участка или ...</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                        <li class="article__item">
+                            <img class="article__image" src="./image/cards/Фото_Заключение_.png" alt="">
+                            <h3 class="article__title">Заключение </h3>
+                            <p class="article__text">Для предоставления в суд или досудебка</p>
+                            <a class="article__button" href="#"><img class="article__arrow"
+                                    src="./image/icons/right-lg.svg" alt=""> Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section></section>
+    <section></section>
+    </div>
+    <footer class="footer"></footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
