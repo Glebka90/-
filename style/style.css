@@ -424,7 +424,8 @@ button {
 }
 
 .mozhno-doveryat {
-    margin: 120px 0;
+    max-width: 1700px;
+    margin: 120px auto 0;
     height: 1000px;
     position: relative;
     background-image: url('../image/background/Фон.png');
@@ -437,10 +438,10 @@ button {
 }
 .image__item-1{
     top: 120px;
-    left: 150px;
+    left: 0;
 }
 .image__item-2{
-    right: 150px;
+    right: 0;
     bottom: 0;
 }
 .mozhno-doveryat__wrapper {
